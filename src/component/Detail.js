@@ -1,7 +1,7 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom';
-import { Appconsumer, AppContext } from './AppContext'
+import { Appconsumer} from './AppContext'
 
 export default function Detail() {
   // // const { detail } = useContext(AppContext);

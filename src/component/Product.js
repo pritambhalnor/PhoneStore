@@ -5,7 +5,7 @@ import { useContext } from 'react';
 import { AppContext } from './AppContext';
 
 export default function Product({store}) {
-  const { id, title, incart, price, img,company,info}=store;
+  const { id, title, incart, price, img}=store;
   const contextData = useContext(AppContext);
   
   function addtocart(id,price) {

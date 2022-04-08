@@ -1,5 +1,4 @@
 import React from 'react'
-import { Productdetail } from '../Data'
 import Product from './Product';
 import { useContext } from 'react';
 import { AppContext } from './AppContext';
